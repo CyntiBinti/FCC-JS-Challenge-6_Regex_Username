@@ -1,3 +1,3 @@
 let username = "JackOfAllTrades";
-let userCheck = /^\D[a-z]\d*$/gi;
+let userCheck = /^[a-z]+\d*$/i;
 let result = userCheck.test(username);
