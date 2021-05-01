@@ -15,5 +15,7 @@ You need to check all the usernames in a database. Here are some simple rules th
 Change the regex userCheck to fit the constraints listed above
 
 let username = "JackOfAllTrades";
+
 let userCheck = /change me/ // Change this line
+
 let result = userCheck.test(username);
